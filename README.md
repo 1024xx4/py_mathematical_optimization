@@ -1,4 +1,6 @@
 # Python ではじめる数理最適化
+---
+GitHub: https://github.com/ohmsha/PyOptBook
 
 ---
 
