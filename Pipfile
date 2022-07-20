@@ -9,6 +9,8 @@ pulp = "*"
 seaborn = "*"
 matplotlib = "*"
 jupyter = "*"
+numpy = "*"
+joblib = "*"
 
 [dev-packages]
 
