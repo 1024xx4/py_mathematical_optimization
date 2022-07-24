@@ -131,3 +131,4 @@ dmypy.json
 # Original
 .idea/
 Pipfile.lock
+sample
