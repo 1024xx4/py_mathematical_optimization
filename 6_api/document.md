@@ -39,3 +39,14 @@ API と Web application の基礎と Merit を学ぶことで、数理 Model を
 - API は基本的に利用者との Interaction は発生せず、Data を送信したら Data が返却される、といった Systematic な機能。  
 ※ API は Web application の裏側で使用されることが多くなる。
 
+---
+
+### 要件と仕様の定義
+#### 要件
+API に学生 Data と車 Data を投げると、学生の乗車 Group 分け問題を解いた結果を得られる。
+#### 仕様
+- HTTP Protocol による API との通信 (Request と Response)  
+Request (入力) : 学生 Data, 車 Data の csv File  
+Response (出力) : 最適化結果の csv File
+- 最適化を実行  
+学生の乗車 Group 分けを行なう Module の作成
