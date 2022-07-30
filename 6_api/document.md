@@ -74,3 +74,14 @@ API に学生 Data と車 Data を投げると、学生の乗車 Group 分け問
 - solive() の帰り値として最適化 Status を返す方が親切。
 - すでに解き終わっている問題に対して solve() が呼ばれた場合は、前回の結果を Cache などで Instance が保持しておいて返す方が効率的
 - 初期化時に意図しない Data が渡ってきたときの Error handling を実装することも重要。
+
+---
+### Web application
+#### 要件と使用の定義
+##### 要件
+Browse から特定の URL に access し、学生 Data と車 Data を upload すると、学生の乗車 Group 分け問題を解いた結果を Download できる。
+
+#### 仕様
+- HTTP protocol による Web server との通信ができる
+- TOP page では学生の Data と車 Data の csv file を upload できる。
+- 最適化後の Page では結果を表示し、csv file の download ができる。
