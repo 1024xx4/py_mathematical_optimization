@@ -85,3 +85,15 @@ Browse から特定の URL に access し、学生 Data と車 Data を upload �
 - HTTP protocol による Web server との通信ができる
 - TOP page では学生の Data と車 Data の csv file を upload できる。
 - 最適化後の Page では結果を表示し、csv file の download ができる。
+
+### UI Design
+#### TOP page
+![top](https://user-images.githubusercontent.com/7993391/181908669-f420f315-d842-4b85-97ba-ed4a2c36bfb8.png)
+
+#### students.csv と cars.csv を upload した状態の TOP page
+![top_uploaded](https://user-images.githubusercontent.com/7993391/181908729-b2734759-005e-4245-9b86-76530024be25.png)
+
+#### 「最適化を実行」する Button を押下した後の page
+- 結果を画面に表示する。
+- Download する機能がある。
+![after_optimization_execution](https://user-images.githubusercontent.com/7993391/181908747-742cae7d-ee20-4ca2-9361-12c1d6a078ec.png)
