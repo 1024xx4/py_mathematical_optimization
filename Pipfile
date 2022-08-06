@@ -4,19 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-pulp = "*"
-seaborn = "*"
-matplotlib = "*"
-jupyter = "*"
-numpy = "*"
-joblib = "*"
-flask = "*"
+pandas = "1.2.4"
+pulp = "2.4"
+seaborn = "0.11.1"
+matplotlib = "3.3.4"
+jupyter = "1.0.0"
+numpy = "1.20.1"
+joblib = "0.14.1"
+flask = "2.0.1"
 requests = "*"
-lxml = "*"
-cvxopt = "*"
+lxml = "4.6.3"
+cvxopt = "1.2.6"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.7"
