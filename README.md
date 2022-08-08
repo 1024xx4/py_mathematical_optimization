@@ -1,3 +1,6 @@
+- Python Version: 3.7
+- 仮想環境: pipenv
+---
 # Python ではじめる数理最適化
 ---
 GitHub: https://github.com/ohmsha/PyOptBook
